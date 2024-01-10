@@ -3,7 +3,8 @@ const a1 = new Array(); // nuevo array vacío.
 const a2 = new Array(4); //Nuevo array de 4 elementos
 
 //nuevo array con tres elementos definidos
-const apellidos = new Array('Perez', 'Martínez', 'González');
+const apellidos = new Array('Perez', 'Martínez', 'González'); //forma "clásica"
+const apellidos1 = ['Vega', 'Ibañez', 'Fernandez']; //forma simple
 
 //así podemos inicializar un array con valores:
 for (let i = 0; i < 10; i++) {
