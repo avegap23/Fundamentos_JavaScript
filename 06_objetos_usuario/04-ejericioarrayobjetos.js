@@ -26,10 +26,10 @@ personas.push(p4);
 
 //console.log(personas);
 
-personas.forEach((persona,indice) => {
+personas.forEach((persona, indice) => {
     //console.log(persona);
     console.log(`----Persona ${indice}------`)
-    
+
     for (prop in persona) {
         console.log(`${prop}: ${persona[prop]}`);
     }
@@ -38,7 +38,5 @@ personas.forEach((persona,indice) => {
 
 /* for (persona of personas) {
     console.log(persona);
-
 }
-
- */
+*/

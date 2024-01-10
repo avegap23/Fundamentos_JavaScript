@@ -5,17 +5,11 @@ myCar.model = 'Mustang';
 myCar.year = 1969;
 
 //podemos crear directamente un objeto dando sus propiedades y métodos
-
 const myCar2 = {
   make: 'Seat',
   model: '127',
   year: '1975'
-
 }
-
-
-
-
 
 //declaración de un objeto con propiedades y métodos
 const persona = {
